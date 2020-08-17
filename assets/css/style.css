@@ -3,6 +3,9 @@
   border: 1px solid #e3e3e3;
 }
 
+.col-xs-12 col-md-12{
+  text-align: center;
+}
 /* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
 html {
   position: relative;
