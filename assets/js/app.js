@@ -113,7 +113,7 @@ function updateToolTip(chosenXAxis,chosenYAxis, circlesGroup) {
     .offset([50, -30])
     .direction('se')
     .html(function(d) {
-      return (`<b>${d.Name}</b><br><b>${labelX}</b> ${d[chosenXAxis]}<br><b>${labelY}</b> ${d[chosenYAxis]}<br><b>Ingredients:</b><br>${d.Ingredient}<br><b>Cooking Method:</b><br> ${d.Method}`);
+      return (`<b>${d.Name}</b><br><b>${labelX}</b> ${d[chosenXAxis]}<br><b>${labelY}</b> ${d[chosenYAxis]} minutes <br><b>Ingredients:</b><br>${d.Ingredient}<br><b>Cooking Method:</b><br> ${d.Method}`);
     });
 
   circlesGroup.call(toolTip);
